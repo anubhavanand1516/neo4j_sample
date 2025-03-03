@@ -39,6 +39,11 @@ If successful, the script will print:
 ```
 ✅ Graph Data Inserted Successfully!
 ```
+## All Node
+![visualisation](https://github.com/user-attachments/assets/97d0575a-c054-424b-9fef-0420a1dd369e)
+
+## Relationships
+![visualisation (1)](https://github.com/user-attachments/assets/aa6bbc0f-8995-45b6-b8f4-53775ed800df)
 
 ## Functionality
 - **Establishes connection** to Neo4j using the `GraphDatabase` driver.
