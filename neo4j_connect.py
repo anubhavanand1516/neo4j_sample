@@ -3,7 +3,7 @@ from neo4j import GraphDatabase
 # Neo4j Credentials
 URI = "neo4j+s://b6c73605.databases.neo4j.io"  # Your Neo4j AuraDB URI
 USERNAME = "neo4j"
-PASSWORD = "LG4SKmgWPK4ZcfubPg9kk88OQINJufxolLLvojh7Qow"  # Replace with your actual password
+PASSWORD = "LG4SKmgWPK4ZcfubPg9kk88OQINJufxolLLvojh7Qow"  
 
 # Connect to Neo4j
 driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
@@ -28,7 +28,7 @@ def create_sample_graph():
     run_query(query)
     print("✅ Graph Data Inserted Successfully!")
 
-# Run the script
+
 if __name__ == "__main__":
     create_sample_graph()
     driver.close()
